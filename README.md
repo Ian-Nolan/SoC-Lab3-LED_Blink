@@ -1,5 +1,6 @@
-Hello! As of 12:30AM on the morning of October 17th, I have suggessfully programmed the board two times. The LEDs have tunred on 0 times, but I am okay with that for now.
+Hello! As of November 4th, programming the board results in Chu'sinitial LED test working well for its designated LEDS followed by my one test LED, that is enabled in the default case of my case statement in hardware, turning on. The main 4 LEDs thatare supposed to be blinking do not blink yet, though.
 
+/*
 Important notes:
 1. My systemVerilog testbench did not work for some reason. I have not yet had time to troubleshoot that.
 2. in order to program the device there are several quirky steps that are more like loopholes that my friends and I discovered:
@@ -11,5 +12,5 @@ Plan for moving forward:
 2. Implement a basic "all LEDs on" design to verify that the board can turn the LEDS on through the FPro system
 3. Review all C++ and .h files for enum consistency and more.
 4. Try to implement everything together again
-
+*/
 
